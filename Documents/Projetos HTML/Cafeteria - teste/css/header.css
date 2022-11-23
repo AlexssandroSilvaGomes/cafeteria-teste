@@ -1,0 +1,35 @@
+.header {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    place-self: start center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.logo p {
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+}
+
+.logo img {
+    height: 32px;
+    width: 32px;
+}
+
+.menu ul {
+    color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+}

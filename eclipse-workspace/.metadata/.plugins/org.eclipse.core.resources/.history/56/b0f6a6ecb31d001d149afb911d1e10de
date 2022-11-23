@@ -1,0 +1,18 @@
+package primeiroPrograma;
+
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+
+public class JokenpoGame {
+
+	public static void main(String[] args) {
+		
+		ImageIcon pedra = new ImageIcon(src/primeiroPrograma/primeiroProgramaImg/pedra.png);
+		ImageIcon papel = new ImageIcon(src/primeiroPrograma/primeiroProgramaImg/papel.png);
+		ImageIcon tesoura = new ImageIcon(src/primeiroPrograma/primeiroProgramaImg/tesoura.png);
+		
+		
+
+	}
+
+}
