@@ -4,6 +4,9 @@
     display: grid;
     place-items: center;
     background-image: url(../img/Hero-BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .conteudo {
@@ -28,6 +31,9 @@
     color: var(--cor-primaria);
     border: 1px solid var(--cor-marrom);
     border-radius: 25px;
-    font-size: 1.5rem;
     padding: 26px 86px;
+}
+
+.btn p {
+    font-size: 1.5rem;
 }
